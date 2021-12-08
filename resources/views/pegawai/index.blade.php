@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
+@extends('layout.happy')
+
+@section('isikonten')
 
 	<h2>www.malasngoding.com</h2>
 	<h3>Data Pegawai</h3>
@@ -37,5 +34,4 @@
 	</table>
 
 
-</body>
-</html>
+@endsection

@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Penugasan Tabel Laravel - 5026201058</title>
-</head>
-<body>
+@extends('layout.happy')
+
+@section('isikonten')
+
 
 	<h2>Yagi Aditya Muhammad (5026201058) / PWEB D</h2>
 	<h3>Data Tugas</h3>
@@ -22,5 +20,4 @@
 		<input type="submit" value="Simpan Data">
 	</form>
 
-</body>
-</html>
+@endsection

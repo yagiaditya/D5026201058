@@ -26,4 +26,5 @@ class ViewController extends Controller
         //source untuk data  / proses bisnis yang di olah
         return view('tugasphp');
     }
+
 }
