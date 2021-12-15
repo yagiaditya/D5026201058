@@ -63,3 +63,11 @@ Route::get('/tumbuhan/edit/{id}','TumbuhanController@edit');
 Route::post('/tumbuhan/update','TumbuhanController@update');
 Route::get('/tumbuhan/hapus/{id}','TumbuhanController@hapus');
 Route::get('/tumbuhan/detail/{id}','TumbuhanController@view');
+
+
+Route::get('/UAS','NilaiKuliahController@view');
+Route::get('/UAS/tambah','NilaiKuliahController@tambah');
+Route::post('/UAS/tambah','NilaiKuliahController@store');
+Route::get('/UAS/edit/{id}','NilaiKuliahController@edit');
+Route::post('/UAS/edit','NilaiKuliahController@update');
+Route::get('/UAS/hapus/{id}','NilaiKuliahController@hapus');
